@@ -1,0 +1,73 @@
+.nav-item .nav-link.active{
+  color: rgb(123, 0, 255) !important;
+}
+.nav-item .nav-link:hover{
+  color: rgb(76, 0, 255);
+}
+.navbar-brand{
+  color: rgb(76, 0, 255) !important;
+}
+.btn{
+background: linear-gradient(to right,blue,rgb(108, 83, 167));
+color: white;
+width: 150px;
+}
+.navbar-expand-lg{
+  background-color: rgb(255, 255, 255,0.9);
+}
+
+#Experience .row .col-lg-2 img:hover{
+transform: translateY(-5px);
+}
+
+.row .col-xl-3 .card img{
+  width: 25%;
+}
+
+.row .col-xl-3 .card{
+  height: 350px;
+}
+
+.row .col-xl-3 .card:hover{
+  box-shadow: -5px -5px 10px gray;
+}
+/*pages*/
+#Pages{
+margin-top:200px ;
+}
+
+@media (min-width: 1025px){
+
+  #Pages .row .nav{
+width:50%;
+  }
+  
+  #Pages .row .nav .nav-item{
+margin-right: 30px;
+      }
+}
+
+ @media (min-width: 768px) and (max-width: 1024px) {
+  #Pages .row .nav{
+    width:75%;
+  
+      }
+      #Pages .row .nav .nav-item{
+        margin-right: 30px;
+              }
+}
+
+@media  (max-width: 767px) {
+
+  #Pages .row .nav{
+    width:90%;
+  
+      }
+      #Pages .row .nav .nav-item{
+        margin-right: 10px;
+              }
+}
+
+#Pages .row .nav .nav-item .nav-link.active{
+  color:white !important;
+}
