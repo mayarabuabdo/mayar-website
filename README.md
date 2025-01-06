@@ -1,2 +1,2 @@
 # mayar-website
-personal website using CSS HTML and Bootsrap
+personal website using CSS HTML and Bootstrap
